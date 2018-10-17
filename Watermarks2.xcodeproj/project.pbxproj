@@ -1,0 +1,961 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CA41F83DEDEC2618EA37FFE /* libPods-Watermarks2Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEAC5E0ADA0E7C22A5406F85 /* libPods-Watermarks2Tests.a */; };
+		5C6EB1A977C2AFE5B0793379 /* libPods-Watermarks2UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C053B3DE5FFAED92362243 /* libPods-Watermarks2UITests.a */; };
+		8833282F2177171000CC3DCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8833282E2177171000CC3DCA /* AppDelegate.m */; };
+		883328322177171000CC3DCA /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 883328312177171000CC3DCA /* ViewController.mm */; };
+		883328352177171000CC3DCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 883328332177171000CC3DCA /* Main.storyboard */; };
+		883328372177171300CC3DCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 883328362177171300CC3DCA /* Assets.xcassets */; };
+		8833283A2177171300CC3DCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 883328382177171300CC3DCA /* LaunchScreen.storyboard */; };
+		8833283D2177171300CC3DCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8833283C2177171300CC3DCA /* main.m */; };
+		883328472177171400CC3DCA /* Watermarks2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 883328462177171400CC3DCA /* Watermarks2Tests.m */; };
+		883328522177171400CC3DCA /* Watermarks2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 883328512177171400CC3DCA /* Watermarks2UITests.m */; };
+		8833286C2177183800CC3DCA /* LZPhotoViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 883328632177183700CC3DCA /* LZPhotoViewController.mm */; };
+		8833286D2177183800CC3DCA /* LZPhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 883328652177183700CC3DCA /* LZPhotoViewController.xib */; };
+		8833286E2177183800CC3DCA /* LZVideoViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 883328692177183800CC3DCA /* LZVideoViewController.mm */; };
+		8833286F2177183800CC3DCA /* LZVideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8833286B2177183800CC3DCA /* LZVideoViewController.xib */; };
+		8833288B2177196400CC3DCA /* UIColor+UIcolor_RGB.m in Sources */ = {isa = PBXBuildFile; fileRef = 883328722177196400CC3DCA /* UIColor+UIcolor_RGB.m */; };
+		8833288C2177196400CC3DCA /* ClearCacheTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 883328762177196400CC3DCA /* ClearCacheTool.m */; };
+		8833288D2177196400CC3DCA /* ClipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 883328782177196400CC3DCA /* ClipView.m */; };
+		8833288E2177196400CC3DCA /* FramesShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 883328792177196400CC3DCA /* FramesShowViewController.m */; };
+		8833288F2177196400CC3DCA /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8833287A2177196400CC3DCA /* UIImage+Extension.m */; };
+		883328902177196400CC3DCA /* HJImagesToVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8833287D2177196400CC3DCA /* HJImagesToVideo.m */; };
+		883328912177196400CC3DCA /* UIImage+OpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8833287F2177196400CC3DCA /* UIImage+OpenCV.mm */; };
+		883328922177196400CC3DCA /* AlterTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 883328852177196400CC3DCA /* AlterTools.m */; };
+		883328942177196400CC3DCA /* MBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 883328892177196400CC3DCA /* MBManager.m */; };
+		88332896217719E000CC3DCA /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 88332895217719E000CC3DCA /* libc++.tbd */; };
+		88332898217719E900CC3DCA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88332897217719E900CC3DCA /* AVFoundation.framework */; };
+		8833289A217719FA00CC3DCA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88332899217719FA00CC3DCA /* CoreGraphics.framework */; };
+		8833289C21771A0900CC3DCA /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8833289B21771A0900CC3DCA /* CoreImage.framework */; };
+		8833289E21771A1300CC3DCA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8833289D21771A1300CC3DCA /* QuartzCore.framework */; };
+		883328A021771A1F00CC3DCA /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8833289F21771A1F00CC3DCA /* Accelerate.framework */; };
+		883328A221771A2700CC3DCA /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 883328A121771A2700CC3DCA /* CoreVideo.framework */; };
+		883328A421771A2F00CC3DCA /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 883328A321771A2F00CC3DCA /* AssetsLibrary.framework */; };
+		883328A621771A4000CC3DCA /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 883328A521771A4000CC3DCA /* CoreMedia.framework */; };
+		883328A821771A4A00CC3DCA /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 883328A721771A4A00CC3DCA /* ImageIO.framework */; };
+		883328AA2177201E00CC3DCA /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 883328A92177201E00CC3DCA /* Photos.framework */; };
+		D77549391E2A8918D67DF0AB /* libPods-Watermarks2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B68122862E02388AFF182AB1 /* libPods-Watermarks2.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		883328432177171400CC3DCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 883328222177171000CC3DCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 883328292177171000CC3DCA;
+			remoteInfo = Watermarks2;
+		};
+		8833284E2177171400CC3DCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 883328222177171000CC3DCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 883328292177171000CC3DCA;
+			remoteInfo = Watermarks2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18C053B3DE5FFAED92362243 /* libPods-Watermarks2UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Watermarks2UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E17BEFED823806B72BA1407 /* Pods-Watermarks2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Watermarks2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Watermarks2/Pods-Watermarks2.debug.xcconfig"; sourceTree = "<group>"; };
+		2BD4DC5ADEA6B8E57E63887A /* Pods-Watermarks2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Watermarks2UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Watermarks2UITests/Pods-Watermarks2UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		62192DF0C2472E9475EB30F3 /* Pods-Watermarks2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Watermarks2UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Watermarks2UITests/Pods-Watermarks2UITests.release.xcconfig"; sourceTree = "<group>"; };
+		6A7999ABA65229A00CB80C29 /* Pods-Watermarks2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Watermarks2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Watermarks2/Pods-Watermarks2.release.xcconfig"; sourceTree = "<group>"; };
+		8833282A2177171000CC3DCA /* Watermarks2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watermarks2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8833282D2177171000CC3DCA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8833282E2177171000CC3DCA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		883328302177171000CC3DCA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		883328312177171000CC3DCA /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		883328342177171000CC3DCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		883328362177171300CC3DCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		883328392177171300CC3DCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8833283B2177171300CC3DCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8833283C2177171300CC3DCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		883328422177171400CC3DCA /* Watermarks2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Watermarks2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		883328462177171400CC3DCA /* Watermarks2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Watermarks2Tests.m; sourceTree = "<group>"; };
+		883328482177171400CC3DCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8833284D2177171400CC3DCA /* Watermarks2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Watermarks2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		883328512177171400CC3DCA /* Watermarks2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Watermarks2UITests.m; sourceTree = "<group>"; };
+		883328532177171400CC3DCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		883328622177183700CC3DCA /* LZPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZPhotoViewController.h; sourceTree = "<group>"; };
+		883328632177183700CC3DCA /* LZPhotoViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LZPhotoViewController.mm; sourceTree = "<group>"; };
+		883328652177183700CC3DCA /* LZPhotoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LZPhotoViewController.xib; sourceTree = "<group>"; };
+		883328682177183800CC3DCA /* LZVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZVideoViewController.h; sourceTree = "<group>"; };
+		883328692177183800CC3DCA /* LZVideoViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LZVideoViewController.mm; sourceTree = "<group>"; };
+		8833286B2177183800CC3DCA /* LZVideoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LZVideoViewController.xib; sourceTree = "<group>"; };
+		883328712177196400CC3DCA /* UIColor+UIcolor_RGB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+UIcolor_RGB.h"; sourceTree = "<group>"; };
+		883328722177196400CC3DCA /* UIColor+UIcolor_RGB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+UIcolor_RGB.m"; sourceTree = "<group>"; };
+		883328752177196400CC3DCA /* ClearCacheTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClearCacheTool.h; sourceTree = "<group>"; };
+		883328762177196400CC3DCA /* ClearCacheTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClearCacheTool.m; sourceTree = "<group>"; };
+		883328782177196400CC3DCA /* ClipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClipView.m; sourceTree = "<group>"; };
+		883328792177196400CC3DCA /* FramesShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FramesShowViewController.m; sourceTree = "<group>"; };
+		8833287A2177196400CC3DCA /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		8833287B2177196400CC3DCA /* UIImage+OpenCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+OpenCV.h"; sourceTree = "<group>"; };
+		8833287D2177196400CC3DCA /* HJImagesToVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJImagesToVideo.m; sourceTree = "<group>"; };
+		8833287E2177196400CC3DCA /* HJImagesToVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJImagesToVideo.h; sourceTree = "<group>"; };
+		8833287F2177196400CC3DCA /* UIImage+OpenCV.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIImage+OpenCV.mm"; sourceTree = "<group>"; };
+		883328802177196400CC3DCA /* ClipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClipView.h; sourceTree = "<group>"; };
+		883328812177196400CC3DCA /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		883328822177196400CC3DCA /* FramesShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FramesShowViewController.h; sourceTree = "<group>"; };
+		883328832177196400CC3DCA /* WaterMarkDelete.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterMarkDelete.pch; sourceTree = "<group>"; };
+		883328852177196400CC3DCA /* AlterTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlterTools.m; sourceTree = "<group>"; };
+		883328862177196400CC3DCA /* AlterTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlterTools.h; sourceTree = "<group>"; };
+		883328892177196400CC3DCA /* MBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBManager.m; sourceTree = "<group>"; };
+		8833288A2177196400CC3DCA /* MBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBManager.h; sourceTree = "<group>"; };
+		88332895217719E000CC3DCA /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		88332897217719E900CC3DCA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		88332899217719FA00CC3DCA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8833289B21771A0900CC3DCA /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		8833289D21771A1300CC3DCA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8833289F21771A1F00CC3DCA /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		883328A121771A2700CC3DCA /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		883328A321771A2F00CC3DCA /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		883328A521771A4000CC3DCA /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		883328A721771A4A00CC3DCA /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		883328A92177201E00CC3DCA /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		B650C3617E31F12CB5133CE3 /* Pods-Watermarks2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Watermarks2Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Watermarks2Tests/Pods-Watermarks2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B68122862E02388AFF182AB1 /* libPods-Watermarks2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Watermarks2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEAC5E0ADA0E7C22A5406F85 /* libPods-Watermarks2Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Watermarks2Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBCC5BB40E3E308DF3CF38B9 /* Pods-Watermarks2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Watermarks2Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Watermarks2Tests/Pods-Watermarks2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		883328272177171000CC3DCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				883328AA2177201E00CC3DCA /* Photos.framework in Frameworks */,
+				883328A821771A4A00CC3DCA /* ImageIO.framework in Frameworks */,
+				883328A621771A4000CC3DCA /* CoreMedia.framework in Frameworks */,
+				883328A421771A2F00CC3DCA /* AssetsLibrary.framework in Frameworks */,
+				883328A221771A2700CC3DCA /* CoreVideo.framework in Frameworks */,
+				883328A021771A1F00CC3DCA /* Accelerate.framework in Frameworks */,
+				8833289E21771A1300CC3DCA /* QuartzCore.framework in Frameworks */,
+				8833289C21771A0900CC3DCA /* CoreImage.framework in Frameworks */,
+				8833289A217719FA00CC3DCA /* CoreGraphics.framework in Frameworks */,
+				88332898217719E900CC3DCA /* AVFoundation.framework in Frameworks */,
+				88332896217719E000CC3DCA /* libc++.tbd in Frameworks */,
+				D77549391E2A8918D67DF0AB /* libPods-Watermarks2.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8833283F2177171400CC3DCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CA41F83DEDEC2618EA37FFE /* libPods-Watermarks2Tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8833284A2177171400CC3DCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C6EB1A977C2AFE5B0793379 /* libPods-Watermarks2UITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16FA563FBF55799BF08EFD31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E17BEFED823806B72BA1407 /* Pods-Watermarks2.debug.xcconfig */,
+				6A7999ABA65229A00CB80C29 /* Pods-Watermarks2.release.xcconfig */,
+				CBCC5BB40E3E308DF3CF38B9 /* Pods-Watermarks2Tests.debug.xcconfig */,
+				B650C3617E31F12CB5133CE3 /* Pods-Watermarks2Tests.release.xcconfig */,
+				2BD4DC5ADEA6B8E57E63887A /* Pods-Watermarks2UITests.debug.xcconfig */,
+				62192DF0C2472E9475EB30F3 /* Pods-Watermarks2UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		191C9ADCFF5D987ED0349DBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				883328A92177201E00CC3DCA /* Photos.framework */,
+				883328A721771A4A00CC3DCA /* ImageIO.framework */,
+				883328A521771A4000CC3DCA /* CoreMedia.framework */,
+				883328A321771A2F00CC3DCA /* AssetsLibrary.framework */,
+				883328A121771A2700CC3DCA /* CoreVideo.framework */,
+				8833289F21771A1F00CC3DCA /* Accelerate.framework */,
+				8833289D21771A1300CC3DCA /* QuartzCore.framework */,
+				8833289B21771A0900CC3DCA /* CoreImage.framework */,
+				88332899217719FA00CC3DCA /* CoreGraphics.framework */,
+				88332897217719E900CC3DCA /* AVFoundation.framework */,
+				88332895217719E000CC3DCA /* libc++.tbd */,
+				B68122862E02388AFF182AB1 /* libPods-Watermarks2.a */,
+				BEAC5E0ADA0E7C22A5406F85 /* libPods-Watermarks2Tests.a */,
+				18C053B3DE5FFAED92362243 /* libPods-Watermarks2UITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		883328212177171000CC3DCA = {
+			isa = PBXGroup;
+			children = (
+				8833282C2177171000CC3DCA /* Watermarks2 */,
+				883328452177171400CC3DCA /* Watermarks2Tests */,
+				883328502177171400CC3DCA /* Watermarks2UITests */,
+				8833282B2177171000CC3DCA /* Products */,
+				16FA563FBF55799BF08EFD31 /* Pods */,
+				191C9ADCFF5D987ED0349DBC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8833282B2177171000CC3DCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8833282A2177171000CC3DCA /* Watermarks2.app */,
+				883328422177171400CC3DCA /* Watermarks2Tests.xctest */,
+				8833284D2177171400CC3DCA /* Watermarks2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8833282C2177171000CC3DCA /* Watermarks2 */ = {
+			isa = PBXGroup;
+			children = (
+				883328702177184A00CC3DCA /* config */,
+				883328602177183700CC3DCA /* photo */,
+				883328662177183800CC3DCA /* video */,
+				8833285F2177174A00CC3DCA /* tools */,
+				883328362177171300CC3DCA /* Assets.xcassets */,
+				8833283B2177171300CC3DCA /* Info.plist */,
+				8833283C2177171300CC3DCA /* main.m */,
+			);
+			path = Watermarks2;
+			sourceTree = "<group>";
+		};
+		883328452177171400CC3DCA /* Watermarks2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				883328462177171400CC3DCA /* Watermarks2Tests.m */,
+				883328482177171400CC3DCA /* Info.plist */,
+			);
+			path = Watermarks2Tests;
+			sourceTree = "<group>";
+		};
+		883328502177171400CC3DCA /* Watermarks2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				883328512177171400CC3DCA /* Watermarks2UITests.m */,
+				883328532177171400CC3DCA /* Info.plist */,
+			);
+			path = Watermarks2UITests;
+			sourceTree = "<group>";
+		};
+		8833285F2177174A00CC3DCA /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				883328882177196400CC3DCA /* MBManager */,
+				883328732177196400CC3DCA /* thrid */,
+				883328712177196400CC3DCA /* UIColor+UIcolor_RGB.h */,
+				883328722177196400CC3DCA /* UIColor+UIcolor_RGB.m */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		883328602177183700CC3DCA /* photo */ = {
+			isa = PBXGroup;
+			children = (
+				883328612177183700CC3DCA /* c */,
+				883328642177183700CC3DCA /* v */,
+			);
+			path = photo;
+			sourceTree = "<group>";
+		};
+		883328612177183700CC3DCA /* c */ = {
+			isa = PBXGroup;
+			children = (
+				883328622177183700CC3DCA /* LZPhotoViewController.h */,
+				883328632177183700CC3DCA /* LZPhotoViewController.mm */,
+			);
+			path = c;
+			sourceTree = "<group>";
+		};
+		883328642177183700CC3DCA /* v */ = {
+			isa = PBXGroup;
+			children = (
+				883328652177183700CC3DCA /* LZPhotoViewController.xib */,
+			);
+			path = v;
+			sourceTree = "<group>";
+		};
+		883328662177183800CC3DCA /* video */ = {
+			isa = PBXGroup;
+			children = (
+				883328672177183800CC3DCA /* c */,
+				8833286A2177183800CC3DCA /* v */,
+			);
+			path = video;
+			sourceTree = "<group>";
+		};
+		883328672177183800CC3DCA /* c */ = {
+			isa = PBXGroup;
+			children = (
+				883328682177183800CC3DCA /* LZVideoViewController.h */,
+				883328692177183800CC3DCA /* LZVideoViewController.mm */,
+			);
+			path = c;
+			sourceTree = "<group>";
+		};
+		8833286A2177183800CC3DCA /* v */ = {
+			isa = PBXGroup;
+			children = (
+				8833286B2177183800CC3DCA /* LZVideoViewController.xib */,
+			);
+			path = v;
+			sourceTree = "<group>";
+		};
+		883328702177184A00CC3DCA /* config */ = {
+			isa = PBXGroup;
+			children = (
+				883328382177171300CC3DCA /* LaunchScreen.storyboard */,
+				883328332177171000CC3DCA /* Main.storyboard */,
+				883328302177171000CC3DCA /* ViewController.h */,
+				883328312177171000CC3DCA /* ViewController.mm */,
+				8833282D2177171000CC3DCA /* AppDelegate.h */,
+				8833282E2177171000CC3DCA /* AppDelegate.m */,
+			);
+			path = config;
+			sourceTree = "<group>";
+		};
+		883328732177196400CC3DCA /* thrid */ = {
+			isa = PBXGroup;
+			children = (
+				883328742177196400CC3DCA /* cache */,
+				883328772177196400CC3DCA /* water */,
+				883328842177196400CC3DCA /* alter */,
+			);
+			path = thrid;
+			sourceTree = "<group>";
+		};
+		883328742177196400CC3DCA /* cache */ = {
+			isa = PBXGroup;
+			children = (
+				883328752177196400CC3DCA /* ClearCacheTool.h */,
+				883328762177196400CC3DCA /* ClearCacheTool.m */,
+			);
+			path = cache;
+			sourceTree = "<group>";
+		};
+		883328772177196400CC3DCA /* water */ = {
+			isa = PBXGroup;
+			children = (
+				883328782177196400CC3DCA /* ClipView.m */,
+				883328792177196400CC3DCA /* FramesShowViewController.m */,
+				8833287A2177196400CC3DCA /* UIImage+Extension.m */,
+				8833287B2177196400CC3DCA /* UIImage+OpenCV.h */,
+				8833287C2177196400CC3DCA /* HJImagesToVideo */,
+				8833287F2177196400CC3DCA /* UIImage+OpenCV.mm */,
+				883328802177196400CC3DCA /* ClipView.h */,
+				883328812177196400CC3DCA /* UIImage+Extension.h */,
+				883328822177196400CC3DCA /* FramesShowViewController.h */,
+				883328832177196400CC3DCA /* WaterMarkDelete.pch */,
+			);
+			path = water;
+			sourceTree = "<group>";
+		};
+		8833287C2177196400CC3DCA /* HJImagesToVideo */ = {
+			isa = PBXGroup;
+			children = (
+				8833287D2177196400CC3DCA /* HJImagesToVideo.m */,
+				8833287E2177196400CC3DCA /* HJImagesToVideo.h */,
+			);
+			path = HJImagesToVideo;
+			sourceTree = "<group>";
+		};
+		883328842177196400CC3DCA /* alter */ = {
+			isa = PBXGroup;
+			children = (
+				883328852177196400CC3DCA /* AlterTools.m */,
+				883328862177196400CC3DCA /* AlterTools.h */,
+			);
+			path = alter;
+			sourceTree = "<group>";
+		};
+		883328882177196400CC3DCA /* MBManager */ = {
+			isa = PBXGroup;
+			children = (
+				883328892177196400CC3DCA /* MBManager.m */,
+				8833288A2177196400CC3DCA /* MBManager.h */,
+			);
+			path = MBManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		883328292177171000CC3DCA /* Watermarks2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 883328562177171400CC3DCA /* Build configuration list for PBXNativeTarget "Watermarks2" */;
+			buildPhases = (
+				275CC2B596F53475351FD9AA /* [CP] Check Pods Manifest.lock */,
+				883328262177171000CC3DCA /* Sources */,
+				883328272177171000CC3DCA /* Frameworks */,
+				883328282177171000CC3DCA /* Resources */,
+				58345FC0292157A14D579866 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Watermarks2;
+			productName = Watermarks2;
+			productReference = 8833282A2177171000CC3DCA /* Watermarks2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		883328412177171400CC3DCA /* Watermarks2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 883328592177171400CC3DCA /* Build configuration list for PBXNativeTarget "Watermarks2Tests" */;
+			buildPhases = (
+				EFE86DB080CB77072543A795 /* [CP] Check Pods Manifest.lock */,
+				8833283E2177171400CC3DCA /* Sources */,
+				8833283F2177171400CC3DCA /* Frameworks */,
+				883328402177171400CC3DCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				883328442177171400CC3DCA /* PBXTargetDependency */,
+			);
+			name = Watermarks2Tests;
+			productName = Watermarks2Tests;
+			productReference = 883328422177171400CC3DCA /* Watermarks2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8833284C2177171400CC3DCA /* Watermarks2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8833285C2177171400CC3DCA /* Build configuration list for PBXNativeTarget "Watermarks2UITests" */;
+			buildPhases = (
+				6B28A4002215F13108877DA1 /* [CP] Check Pods Manifest.lock */,
+				883328492177171400CC3DCA /* Sources */,
+				8833284A2177171400CC3DCA /* Frameworks */,
+				8833284B2177171400CC3DCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8833284F2177171400CC3DCA /* PBXTargetDependency */,
+			);
+			name = Watermarks2UITests;
+			productName = Watermarks2UITests;
+			productReference = 8833284D2177171400CC3DCA /* Watermarks2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		883328222177171000CC3DCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = people;
+				TargetAttributes = {
+					883328292177171000CC3DCA = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					883328412177171400CC3DCA = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 883328292177171000CC3DCA;
+					};
+					8833284C2177171400CC3DCA = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 883328292177171000CC3DCA;
+					};
+				};
+			};
+			buildConfigurationList = 883328252177171000CC3DCA /* Build configuration list for PBXProject "Watermarks2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 883328212177171000CC3DCA;
+			productRefGroup = 8833282B2177171000CC3DCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				883328292177171000CC3DCA /* Watermarks2 */,
+				883328412177171400CC3DCA /* Watermarks2Tests */,
+				8833284C2177171400CC3DCA /* Watermarks2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		883328282177171000CC3DCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8833283A2177171300CC3DCA /* LaunchScreen.storyboard in Resources */,
+				8833286D2177183800CC3DCA /* LZPhotoViewController.xib in Resources */,
+				8833286F2177183800CC3DCA /* LZVideoViewController.xib in Resources */,
+				883328372177171300CC3DCA /* Assets.xcassets in Resources */,
+				883328352177171000CC3DCA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883328402177171400CC3DCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8833284B2177171400CC3DCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		275CC2B596F53475351FD9AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Watermarks2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58345FC0292157A14D579866 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Watermarks2/Pods-Watermarks2-resources.sh",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_amatorka.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_miss_etikate.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_1.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_2.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_amatorka.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_miss_etikate.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_1.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_2.png",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Watermarks2/Pods-Watermarks2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B28A4002215F13108877DA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Watermarks2UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFE86DB080CB77072543A795 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Watermarks2Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		883328262177171000CC3DCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				883328942177196400CC3DCA /* MBManager.m in Sources */,
+				8833288D2177196400CC3DCA /* ClipView.m in Sources */,
+				883328922177196400CC3DCA /* AlterTools.m in Sources */,
+				8833288C2177196400CC3DCA /* ClearCacheTool.m in Sources */,
+				8833286E2177183800CC3DCA /* LZVideoViewController.mm in Sources */,
+				883328902177196400CC3DCA /* HJImagesToVideo.m in Sources */,
+				883328912177196400CC3DCA /* UIImage+OpenCV.mm in Sources */,
+				8833288E2177196400CC3DCA /* FramesShowViewController.m in Sources */,
+				883328322177171000CC3DCA /* ViewController.mm in Sources */,
+				8833288F2177196400CC3DCA /* UIImage+Extension.m in Sources */,
+				8833283D2177171300CC3DCA /* main.m in Sources */,
+				8833282F2177171000CC3DCA /* AppDelegate.m in Sources */,
+				8833286C2177183800CC3DCA /* LZPhotoViewController.mm in Sources */,
+				8833288B2177196400CC3DCA /* UIColor+UIcolor_RGB.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8833283E2177171400CC3DCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				883328472177171400CC3DCA /* Watermarks2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883328492177171400CC3DCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				883328522177171400CC3DCA /* Watermarks2UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		883328442177171400CC3DCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 883328292177171000CC3DCA /* Watermarks2 */;
+			targetProxy = 883328432177171400CC3DCA /* PBXContainerItemProxy */;
+		};
+		8833284F2177171400CC3DCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 883328292177171000CC3DCA /* Watermarks2 */;
+			targetProxy = 8833284E2177171400CC3DCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		883328332177171000CC3DCA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				883328342177171000CC3DCA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		883328382177171300CC3DCA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				883328392177171300CC3DCA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		883328542177171400CC3DCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		883328552177171400CC3DCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		883328572177171400CC3DCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E17BEFED823806B72BA1407 /* Pods-Watermarks2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7MY6X3TTYM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Watermarks2/tools/thrid",
+				);
+				INFOPLIST_FILE = Watermarks2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = das.Watermarks2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Debug;
+		};
+		883328582177171400CC3DCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A7999ABA65229A00CB80C29 /* Pods-Watermarks2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7MY6X3TTYM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Watermarks2/tools/thrid",
+				);
+				INFOPLIST_FILE = Watermarks2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = das.Watermarks2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Release;
+		};
+		8833285A2177171400CC3DCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBCC5BB40E3E308DF3CF38B9 /* Pods-Watermarks2Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7MY6X3TTYM;
+				INFOPLIST_FILE = Watermarks2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = das.Watermarks2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Watermarks2.app/Watermarks2";
+			};
+			name = Debug;
+		};
+		8833285B2177171400CC3DCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B650C3617E31F12CB5133CE3 /* Pods-Watermarks2Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7MY6X3TTYM;
+				INFOPLIST_FILE = Watermarks2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = das.Watermarks2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Watermarks2.app/Watermarks2";
+			};
+			name = Release;
+		};
+		8833285D2177171400CC3DCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BD4DC5ADEA6B8E57E63887A /* Pods-Watermarks2UITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7MY6X3TTYM;
+				INFOPLIST_FILE = Watermarks2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = das.Watermarks2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Watermarks2;
+			};
+			name = Debug;
+		};
+		8833285E2177171400CC3DCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62192DF0C2472E9475EB30F3 /* Pods-Watermarks2UITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7MY6X3TTYM;
+				INFOPLIST_FILE = Watermarks2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = das.Watermarks2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Watermarks2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		883328252177171000CC3DCA /* Build configuration list for PBXProject "Watermarks2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				883328542177171400CC3DCA /* Debug */,
+				883328552177171400CC3DCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		883328562177171400CC3DCA /* Build configuration list for PBXNativeTarget "Watermarks2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				883328572177171400CC3DCA /* Debug */,
+				883328582177171400CC3DCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		883328592177171400CC3DCA /* Build configuration list for PBXNativeTarget "Watermarks2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8833285A2177171400CC3DCA /* Debug */,
+				8833285B2177171400CC3DCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8833285C2177171400CC3DCA /* Build configuration list for PBXNativeTarget "Watermarks2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8833285D2177171400CC3DCA /* Debug */,
+				8833285E2177171400CC3DCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 883328222177171000CC3DCA /* Project object */;
+}
